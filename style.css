@@ -1,82 +1,73 @@
-.design {
-position: absolute;
-left: 35.47%;
-right: 35.47%;
-top: 40.86%;
-bottom: 40.86%;
-
-font-family: Playfair Display SC;
-font-style: normal;
-font-weight: normal;
-font-size: 96px;
-line-height: 128px;
-/* identical to box height */
-
-text-align: center;
-
-color: #F8FFAD;
-
+.body {
+    margin: 0;
+    max-height: 150px;
+}
+/* columms */
+.collums {
+    display: grid;
+    max-width: auto;
+    margin: auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:repeat(12, 48px) ;
+    grid-auto-rows: 48px;
+    gap: 1.2rem;
 }
 
-.photo {
-position: absolute;
-left: 89.42%;
-right: -10.49%;
-top: 43.29%;
-bottom: 43%;
-
-font-family: Playfair Display SC;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 96px;
-/* identical to box height */
-
-text-align: center;
-
-color: rgba(248, 255, 173, 0.5);
+/* bild */
+.home-screen-bild {
+    background-position: center;
+    background-size: cover;
+    background-image: url(bilder/giphy.gif);
+    padding: 1.25rem;
+    grid-column: span 12;
+    grid-row: span 14;
 }
-
-.about {
+/* texter */
+.text-design{
+    color: rgb(228, 194, 6);
     position: absolute;
-left: -10.15%;
-right: 89.94%;
-top: 43.29%;
-bottom: 43%;
-
-font-family: Playfair Display SC;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 96px;
-/* identical to box height */
-
-text-align: center;
-
-color: rgba(248, 255, 173, 0.5);
-
+    padding: 1.25rem;
 }
-
-.view-design {
-
-/* Auto Layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 20px;
-
-position: absolute;
-width: 152px;
-height: 64px;
-left: 500px;
-top: 553px;
-
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
+.text-posision{
+    grid-column: span 7;
+    grid-row: span 4; 
 }
+ /* linje
+hr { 
+    width:100%; height: 1px; background: rgb(255, 255, 255);
+    position: fixed;
+    grid-column: span 7;
+    grid-row: span 7;  
+} */
 
-.container {
-    position: relative;
+
+/* menu */
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    border: 0;
+    position: fixed; 
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
     text-align: center;
-    color: white;
-}
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  .border{
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: rgb(63, 63, 63);
+    color: rgb(255, 255, 255);
+    
+  }
