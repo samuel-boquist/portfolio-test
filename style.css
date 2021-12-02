@@ -1,72 +1,155 @@
-.body {
-    margin: 0;
-    max-height: 150px;
-}
-/* columms */
-.collums {
-    display: grid;
-    max-width: auto;
-    margin: auto;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows:repeat(12, 48px) ;
-    grid-auto-rows: 48px;
-    gap: 1.2rem;
-}
-
-/* bild */
-.home-screen-bild {
-    background-position: center;
-    background-size: cover;
-    background-image: url(bilder/giphy.gif);
-    padding: 1.25rem;
-    grid-column: span 12;
-    grid-row: span 13;
-}
-/* texter */
-.text-design{
-position: absolute;
-left: 31.31%;
-right: 31.57%;
-bottom: 33.57%;
-
-font-family: Playfair Display SC;
-font-style: normal;
-font-weight: normal;
-margin: 0;
-font-size: 90px;
-text-align: center;
-
-color: #F8FFAD;
-}
-
-
-/* menu */
-/* The navigation bar */
-.navbar {
-    overflow: hidden;
-    border: 0;
-    position: fixed; 
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: center;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 25px 25px;
-    text-decoration: none;
-  }
-  .border{
-        border-style: solid;
-        border-color: rgb(255, 255, 255);
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: rgb(63, 63, 63);
-    color: rgb(255, 255, 255);
+    body {
+        background-color: rgb(61, 61, 61);
+        margin: 0%;
     
+
+}
+
+    .image1{
+        background-image: url("bilder/giphy.gif"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+}
+
+/* -----------------menu-------------menu-------------menu--------------- */
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 7fr 1fr;
+        grid-template-rows: 100px 960px;
+        grid-gap: 0;
+      }
+      
+      .grid-container > div:nth-child(1) {
+        display: flex;
+        justify-content: space-evenly;
+        border-style: solid;
+        padding: 10px;
+        color: white;
+
+      }
+
+      .grid-container > div:nth-child(2) {
+        display: flex;
+        justify-content: space-evenly;
+        border-style: solid;
+        border-left: none;
+        border-right: none;
+        padding: 10px;
+        color: white;
+      }
+      
+      .grid-container > div:nth-child(3) {
+        display: flex;
+        justify-content: space-evenly;
+        border-style: solid;
+        padding: auto;
+        color: white;
+      }
+
+      .menu{
+          margin: auto;
+      }
+
+
+/* ---------line----------------line------------------line-------- */
+.grid-side-rihgt {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
   }
+
+      .line1 {
+        grid-column: 3;
+        grid-row: 1 / span 5;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border-right: 3px solid white;
+
+        
+    }
+
+    .grid-side-left {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        padding: 10px;
+      }
+    
+
+    .line2 {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        border-left: 3px solid white;
+
+    }
+
+/* --------------main----------------main---------------Main------------ */
+
+    .grid-main-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+            grid-gap: 10px;
+            padding: 10px;
+          }
+          
+    .Design{
+        grid-column: 2 / span 3;
+        grid-row: 2 / span 3;
+        font-family: Playfair Display SC;
+        position: relative;
+        font-style: normal;
+        font-weight: normal;
+        margin: 0;
+        font-size: 90px;
+        text-align: center;
+    
+        color: #F8FFAD;
+
+    }
+    .design-knap {
+        grid-column: 3;
+        grid-row: 3 / span 2;
+        display: flex;
+        padding: 20px;
+        position: absolute;
+        width: auto;
+        border: 1px solid #FFFFFF;
+
+        /* -----------text i border---------- */
+
+        position: static;
+        margin: auto;
+
+        font-family: Palatino Linotype;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: #FFFFFF;
+}
+
+/* ------------side-text---------side-text-------------side-text----------- */
+
+    .side-test{
+        position: absolute;
+
+        font-family: Playfair Display SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 96px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #F8FFAD;
+    }
