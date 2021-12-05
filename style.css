@@ -1,5 +1,5 @@
     body {
-      background-color: rgb(61, 61, 61);
+      background-color: rgb(43, 43, 43);
       margin: 0%;}
 
 
@@ -86,10 +86,10 @@
 
     .grid-main-col {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
-        padding: 10px;
+        grid-gap: 20px;
+        padding: 20px;
     }
           
     .Design{
@@ -133,7 +133,7 @@
 
         .design-knap-position {
           grid-column: 1 / -1;
-          grid-row: 4;
+          grid-row: 5;
           text-align: center;
         }
 
@@ -163,7 +163,7 @@
         font-family: Playfair Display SC;
         font-style: normal;
         font-weight: normal;
-        font-size: 3em;
+        font-size: 5em;
         transform: rotate(90deg);
 
         color: #F8FFAD;
@@ -175,4 +175,28 @@
       .ZERO{
         padding: 0;
         margin: 0;
+      }
+
+
+      .bild-waldorf{
+        grid-column: 1 /span 3;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        
+      }
+
+      .bild-dyslexi{
+        grid-column: 4 /span 3;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        
+      }
+
+      .p-a{
+        position: absolute;
+        justify-content: center;
       }
