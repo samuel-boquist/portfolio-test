@@ -30,7 +30,7 @@ body {
 .grid-container-design {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8vw 42vw 42vw 42vw 32vw 8vw;
+    grid-template-rows: 8vw 42vw 42vw 32vw 8vw;
     grid-gap: 0;
   }
 
@@ -217,7 +217,7 @@ body {
 
 
     .bild3{
-      background-image: url("bilder/DSC02196.jpg"); 
+      background-image: url("bilder/DSC02879.jpg"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -231,7 +231,7 @@ body {
     }
 
     .bild4{
-      background-image: url("bilder/DSC01989.jpg"); 
+      background-image: url("bilder/DSC08989\ 1.png"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -249,69 +249,70 @@ body {
 /* -----------------footer----------------footer--------------footer------- */
 
 
-      .grid-container-design > div:nth-child(11) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        border-left: none;
-        border-right: none;
-        padding: 10px;
-        background: #0A3934;
-        color: white;
-      }
-        
-      .grid-container-design > div:nth-child(10) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        padding: auto;
-        background: #0A3934;
-        color: white;
-      }
-      .grid-container-design > div:nth-child(12) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        padding: auto;
-        background: #0A3934;
-        color: white;
-      }
+.grid-container-design > div:nth-child(11) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    background: #0A3934;
+    color: white;
+  }
+    
+  .grid-container-design > div:nth-child(10) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+  .grid-container-design > div:nth-child(12) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
 /* --------------------more---------------------footer------------ */
-      .grid-container-design > div:nth-child(17) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        padding: 10px;
-        background: #0A3934;
-        color: white;
-      }
-        
-      .grid-container-design > div:nth-child(14) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        border-top: none;
-        padding: auto;
-        background: #0A3934;
-        color: white;
-      }
-      .grid-container-design > div:nth-child(15) {
-        display: flex;
-        justify-content: space-evenly;
-        border-style: solid;
-        border-top: none;
-        padding: auto;
-        background: #0A3934;
-        color: white;
-      }
+  .grid-container-design > div:nth-child(14) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    background: #0A3934;
+    color: white;
+  }
+    
+  .grid-container-design > div:nth-child(13) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+  .grid-container-design > div:nth-child(15) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
 
-      .footer-side{
-       margin: auto;
-      }
+  .footer-side{
+   margin: auto;
+  }
 
-      .footer-main{
-        margin: auto;
-      }
+  .footer-main{
+    margin: auto;
+  }
+
