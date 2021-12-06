@@ -1,6 +1,7 @@
     body {
       background-color: rgb(43, 43, 43);
-      margin: 0%;}
+      margin: 0%;
+    }
 
 
     .image1{
@@ -19,6 +20,8 @@
       grid-template-rows: 8vw 42vw;
       grid-gap: 0;
     }
+
+    
       
     .grid-container > div:nth-child(1) {
       display: flex;
@@ -26,7 +29,6 @@
       border-style: solid;
       padding: 10px;
       color: white;
-
       }
 
     .grid-container > div:nth-child(2) {
@@ -51,6 +53,44 @@
       margin: auto;
     }
 
+/* ------------------grid2--------------------grid2------------------------grid2---------- */
+
+.grid-container-design {
+      display: grid;
+      grid-template-columns: 1fr 7fr 1fr;
+      grid-template-rows: 8vw 42vw 42vw 42vw 42vw;
+      grid-gap: 0;
+    }
+
+    .grid-container-design > div:nth-child(1) {
+      display: flex;
+      justify-content: space-evenly;
+      border-style: solid;
+      padding: 10px;
+      color: white;
+      }
+
+    .grid-container-design > div:nth-child(2) {
+      display: flex;
+      justify-content: space-evenly;
+      border-style: solid;
+      border-left: none;
+      border-right: none;
+      padding: 10px;
+      color: white;
+    }
+      
+    .grid-container-design > div:nth-child(3) {
+      display: flex;
+      justify-content: space-evenly;
+      border-style: solid;
+      padding: auto;
+      color: white;
+    }
+
+    .menu{
+      margin: auto;
+    }
 
 /* ---------line----------------line------------------line-------- */
     .grid-side {
@@ -58,7 +98,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 10px;
-  }
+    }
 
     .line1 {
       grid-column: 5;
@@ -68,10 +108,7 @@
       position: relative;
       border-right: 4px solid white;
     }
-
-
     
-
     .line2 {
       grid-column: 1;
       grid-row: 1 / span 5;
@@ -79,7 +116,6 @@
       justify-content: center;
       position: relative;
       border-left: 4px solid white;
-
     }
 
 /* --------------main----------------main---------------Main------------ */
@@ -91,7 +127,21 @@
         grid-gap: 20px;
         padding: 20px;
     }
+
+    .grid-main-col2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      padding-left: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+    }
           
+
+/* -------------------knapp-----------------------knapp----------------------knapp------------------- */
+
+
     .Design{
         grid-column: 1 / -1;
         grid-row: 2 / span 2;
@@ -105,36 +155,22 @@
         text-align: center;
     
         color: #F8FFAD;
-
     }
-    /* .design-knap {
-        grid-column: 3;
-        grid-row: 4;
-        display: flex;
-        padding: 20px;
-        padding-top: 0%;
-        padding-bottom: 0%;
-        position: absolute;
-        width: auto;
-        border: 1px solid #FFFFFF; */
+  
 
-        /* -----------text i border---------- */
+/* -------------------knapp-----------------------knapp----------------------knapp------------------- */
 
-        /* position: static;
-        margin: auto;
-
-        font-family: Palatino Linotype;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 24px;
-
-        color: #FFFFFF; */
 
         .design-knap-position {
           grid-column: 1 / -1;
           grid-row: 5;
           text-align: center;
+        }
+
+        .knapp-p{
+        text-align: justify;
+        position: absolute;
+        display: flex;
         }
 
 
@@ -167,7 +203,6 @@
         transform: rotate(90deg);
 
         color: #F8FFAD;
-
     }
 
 /* ----------------ALL--------------ALL--------------------ALL----------- */
@@ -177,26 +212,96 @@
         margin: 0;
       }
 
-
+ /* ----------------ALL--------------ALL--------------------ALL----------- */
+     
       .bild-waldorf{
-        grid-column: 1 /span 3;
-        grid-row: 1 / span 5;
+        background-image: url("bilder/DSC08292.jpg"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 4;
         position: sticky;
         border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        
+        box-sizing: border-box;       
       }
 
       .bild-dyslexi{
+        background-image: url("bilder/DSC08293.jpg"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
         grid-column: 4 /span 3;
-        grid-row: 1 / span 5;
+        grid-row: 1 / span 4;
         position: sticky;
         border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        
+        box-sizing: border-box;  
       }
 
-      .p-a{
-        position: absolute;
-        justify-content: center;
+      .bild-vaxi{
+        background-image: url("bilder/DSC08292.jpg"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
+        grid-column: 1 / -1;
+        grid-row: 1 / span 2;
+        position: sticky;
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;  
       }
+
+      .text-vaxi{
+        grid-column: 1 / -1;
+        grid-row: 4/ span 2;
+
+        font-family: Playfair Display SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10em;
+        text-align: center;
+
+        color: #F8FFAD;
+      }
+        
+      .p-a{
+        height: 10em;
+        display: flex;
+        align-items: center }
+
+---------------------footer------------------footer--------------footer-------------------------
+
+        .grid-container-design > div:nth-child(13) {
+          display: flex;
+          justify-content: space-evenly;
+          border-style: solid;
+          padding: 10px;
+          background: #0A3934;
+          color: white;
+          }
+    
+        .grid-container-design > div:nth-child(14) {
+          display: flex;
+          justify-content: space-evenly;
+          border-style: solid;
+          border-left: none;
+          border-right: none;
+          padding: 10px;
+          background: #0A3934;
+          color: white;
+        }
+          
+        .grid-container-design > div:nth-child(15) {
+          display: flex;
+          justify-content: space-evenly;
+          border-style: solid;
+          padding: auto;
+          background: #0A3934;
+          color: white;
+        }
+    
