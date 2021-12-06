@@ -1,0 +1,361 @@
+body {
+    background-color: rgb(43, 43, 43);
+    margin: 0%;
+  }
+
+
+
+/* -----------------menu-------------menu-------------menu--------------- */
+
+  .menu{
+    margin: auto;
+  }
+
+  .nav-menu{
+    position: fixed;
+    right: -110%;
+    top: 0;
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 8vw 48vw 48vw 4848vw;
+    z-index: 99;         
+  }
+
+/* ----------------grid2--------------------grid2-----------------grid2-- */
+
+.grid-container-design {
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+    grid-template-rows: 8vw 42vw 42vw 42vw 42vw 32vw 8vw;
+    grid-gap: 0;
+  }
+
+  .grid-container-design > div:nth-child(1) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: 10px;
+    color: white;
+    }
+
+  .grid-container-design > div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    color: white;
+  }
+    
+  .grid-container-design > div:nth-child(3) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: auto;
+    color: white;
+  }
+
+
+
+/* ---------lines----------------lines------------------lines-------- */
+  .grid-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .line1 {
+    grid-column: 5;
+    grid-row: 1 / span 5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-right: 0.2em solid white;
+  }
+  
+  .line2 {
+    grid-column: 1;
+    grid-row: 1 / span 5;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-left: 4px solid white;
+  }
+
+/* --------------main----------------main---------------Main------------ */
+
+  .grid-main-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 20px;
+      padding: 20px;
+  }
+
+  .grid-main-col2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+  }
+        
+
+
+
+
+
+
+/* ------------side-text---------side-text-------------side-text----------- */
+
+  .side-test{
+      grid-column: 1 / 3;
+      grid-row: 1 / span 2;
+
+      font-family: Playfair Display SC;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 5rem;
+      transform: rotate(90deg);
+
+      color: #F8FFAD;
+  }
+
+  .Design{
+    grid-column: 1 / -1;
+    grid-row: 2 / span 2;
+    font-family: Playfair Display SC;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 10rem;
+    text-align: center;
+
+    color: #F8FFAD;
+}
+
+/* -------------ALL text------------ALL text------------ALL text-------- */
+
+    .ZERO{
+      padding: 0;
+      margin: 0;
+    }
+
+/* -----images design-----------images design---------images design-- */
+   
+    .bild1{
+      background-image: url("bilder/photo/portrait/DSC08481.jpg"); 
+      background-color: #cccccc; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+      grid-column: 1 / span 4;
+      grid-row: 1 / span 5;
+      position: sticky;
+      border: 0.2em solid #FFFFFF;
+      box-sizing: border-box;       
+    }
+
+    .bild1:hover{
+        transition: 0.5s;
+        background-image: url("bilder/photo/portrait/DSC08481-2.jpg"); 
+    }
+
+
+
+    .bild2{
+      background-image: url("bilder/photo/portrait/DSC08469.jpg"); 
+      background-color: #cccccc; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+      
+      grid-column: 5 /span 2;
+      grid-row: 1 / span 5;
+      position: sticky;
+      border: 0.2em solid #FFFFFF;
+      box-sizing: border-box;  
+    }
+
+    .bild2:hover{
+        transition: 0.5s;
+        background-image: url("bilder/photo/portrait/DSC08469-2.jpg"); 
+    }
+
+
+    .bild3{
+      background-image: url("bilder/photo/portrait/DSC08636-2.jpg"); 
+      background-color: #cccccc; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+
+      grid-column: 1 / span 3;
+      grid-row: 1 / span 5;
+      position: sticky;
+      border: 0.2em solid #FFFFFF;
+      box-sizing: border-box;       
+    }
+
+    .bild3:hover{
+        transition: 0.5s;
+        background-image: url("bilder/photo/portrait/DSC08636-3.jpg"); 
+    }
+
+    .bild4{
+      background-image: url("bilder/photo/portrait/DSC02198-2.jpg"); 
+      background-color: #cccccc; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-size: cover;
+      
+      grid-column: 4 /span 3;
+      grid-row: 1 / span 5;
+      position: sticky;
+      border: 0.2em solid #FFFFFF;
+      box-sizing: border-box;  
+    }
+
+    .bild4:hover{
+        transition: 0.5s;
+        background-image: url("bilder/photo/portrait/DSC02198.jpg"); 
+    }
+
+    .bild5{
+        background-image: url("bilder/photo/portrait/DSC03365\ -\ Shortcut.lnk"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
+        grid-column: 1 /span 2;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 0.2em solid #FFFFFF;
+        box-sizing: border-box;  
+      }
+  
+      .bild5:hover{
+          transition: 0.5s;
+          background-image: url("bilder/photo/portrait/DSC03365.jpg"); 
+      }
+
+      .bild6{
+        background-image: url("bilder/photo/portrait/DSC01828-2\ 1.png"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
+        grid-column: 3 / -1;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 0.2em solid #FFFFFF;
+        box-sizing: border-box;  
+      }
+  
+      .bild6:hover{
+          transition: 0.5s;
+          background-image: url("bilder/photo/portrait/DSC01828-2\ 2.png"); 
+      }
+
+      .bild7{
+        background-image: url("bilder/photo/portrait/DSC01598\ 2.png"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        
+        grid-column: 1 / -1;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 0.2em solid #FFFFFF;
+        box-sizing: border-box;  
+      }
+  
+      .bild7:hover{
+          transition: 0.5s;
+          background-image: url("bilder/photo/portrait/DSC01598\ 1.png"); 
+      }
+      
+/* -----------------footer----------------footer--------------footer------- */
+
+
+.grid-container-design > div:nth-child(17) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    background: #0A3934;
+    color: white;
+  }
+    
+  .grid-container-design > div:nth-child(16) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+  .grid-container-design > div:nth-child(18) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+/* --------------------more---------------------footer------------ */
+  .grid-container-design > div:nth-child(20) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    background: #0A3934;
+    color: white;
+  }
+    
+  .grid-container-design > div:nth-child(19) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+  .grid-container-design > div:nth-child(21) {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-top: none;
+    padding: auto;
+    background: #0A3934;
+    color: white;
+  }
+
+  .footer-side{
+   margin: auto;
+  }
+
+  .footer-main{
+    margin: auto;
+  }
+

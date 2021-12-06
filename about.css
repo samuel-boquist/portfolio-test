@@ -174,7 +174,7 @@ body {
    
 
     .bild-på-mig{
-      background-image: url("bilder/Rectangle\ 3.png"); 
+      background-image: url("bilder/about/Rectangle\ 3.png"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -202,13 +202,14 @@ body {
       }
 
       .text{
+        text-align-last: left;
         font-family: 'Open Sans', sans-serif;
         color: white;
         padding: 20px;
         text-align: center;
         position: absolute;
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%; 
         transform: translate(-50%, -50%)
       }
