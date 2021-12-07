@@ -170,7 +170,7 @@
       }
 
 
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
@@ -194,9 +194,9 @@
     border-right: none;
     padding: 10px;
     color: white;
-  }
+  } */
     
-  .grid-container > div:nth-child(3) {
+  /* .grid-container > div:nth-child(3) {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
@@ -221,10 +221,10 @@
     grid-template-rows: 8vw 48vw 48vw;
     z-index: 99;         
   }
-
+ */
 
 /* ---------lines----------------lines------------------lines-------- */
-  .grid-side {
+  /* .grid-side {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -247,23 +247,23 @@
     justify-content: center;
     position: relative;
     border-left: 4px solid white;
-  }
+  } */
 
 /* --------------main----------------main---------------Main------------ */
 
-  .grid-main-col {
+  /* .grid-main-col {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 20px;
       padding: 20px;
-  }
+  } */
 
 
 /* -----------text-----------------text----------------------text-- */
 
 
-  .Design{
+  /* .Design{
       grid-column: 1 / -1;
       grid-row: 2 / span 2;
       font-family: Playfair Display SC;
@@ -276,13 +276,13 @@
       text-align: center;
   
       color: #F8FFAD;
-  }
+  } */
 
 
 /* ------------knapp över photo--------knapp över photo-------------------- */
 
 
-      .design-knap-position {
+      /* .design-knap-position {
         grid-column: 1 / -1;
         grid-row: 5;
         text-align: center;
@@ -302,11 +302,11 @@
         background-color: #F8FFAD ;
         color: black;
         border: none;
-      }
+      } */
 
 /* ------------side-text---------side-text-------------side-text----------- */
 
-  .side-test{
+  /* .side-test{
       grid-column: 1;
       grid-row: 1 / span 2;
 
@@ -317,18 +317,18 @@
       transform: rotate(90deg);
 
       color: #F8FFAD;
-  }
+  } */
 
 /* -------------ALL text------------ALL text------------ALL text-------- */
 
-    .ZERO{
+    /* .ZERO{
       padding: 0;
       margin: 0;
-    }
+    } */
 
-}
 
-@media screen and (max-width: 1200px) {
+
+/* @media screen and (max-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
@@ -409,19 +409,19 @@
 
 /* --------------main----------------main---------------Main------------ */
 
-  .grid-main-col {
+  /* .grid-main-col {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 20px;
       padding: 20px;
-  }
+  } */
 
 
 /* -----------text-----------------text----------------------text-- */
 
 
-  .Design{
+  /* .Design{
       grid-column: 1 / -1;
       grid-row: 2 / span 2;
       font-family: Playfair Display SC;
@@ -434,13 +434,13 @@
       text-align: center;
   
       color: #F8FFAD;
-  }
+  } */
 
 
 /* ------------knapp över photo--------knapp över photo-------------------- */
 
 
-      .design-knap-position {
+      /* .design-knap-position {
         grid-column: 1 / -1;
         grid-row: 5;
         text-align: center;
@@ -460,11 +460,11 @@
         background-color: #F8FFAD ;
         color: black;
         border: none;
-      }
+      } */
 
 /* ------------side-text---------side-text-------------side-text----------- */
 
-  .side-test{
+  /* .side-test{
       grid-column: 1;
       grid-row: 1 / span 2;
 
@@ -475,20 +475,14 @@
       transform: rotate(90deg);
 
       color: #F8FFAD;
-  }
+  } */
 
 /* -------------ALL text------------ALL text------------ALL text-------- */
 
-    .ZERO{
+    /* .ZERO{
       padding: 0;
       margin: 0;
     }
 
 }
-  
-
-  
-
-  
-
-    
+   */ 
