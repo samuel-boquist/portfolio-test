@@ -28,37 +28,40 @@ body {
 /* ----------------grid2--------------------grid2-----------------grid2-- */
 
 .grid-container-design {
-    display: grid;
-    grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8vw 42vw 42vw 42vw 32vw 8vw;
-    grid-gap: 0;
+  display: grid;
+  grid-template-columns: 1fr 7fr 1fr;
+  grid-template-rows: 20vh 80vh 80vh 60vh 20vh;
+  grid-gap: 0;
+}
+
+.grid-container-design > div:nth-child(1) {
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  padding: auto;
+  position: sticky;
+  color: white;
   }
 
-  .grid-container-design > div:nth-child(1) {
-    display: flex;
-    justify-content: space-evenly;
-    border-style: solid;
-    padding: 10px;
-    color: white;
-    }
-
-  .grid-container-design > div:nth-child(2) {
-    display: flex;
-    justify-content: space-evenly;
-    border-style: solid;
-    border-left: none;
-    border-right: none;
-    padding: 10px;
-    color: white;
-  }
-    
-  .grid-container-design > div:nth-child(3) {
-    display: flex;
-    justify-content: space-evenly;
-    border-style: solid;
-    padding: auto;
-    color: white;
-  }
+.grid-container-design > div:nth-child(2) {
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  position: sticky;
+  border-left: none;
+  border-right: none;
+  padding: 10px;
+  color: white;
+}
+  
+.grid-container-design > div:nth-child(3) {
+  display: flex;
+  justify-content: space-evenly;
+  border-style: solid;
+  position: sticky;
+  padding: auto;
+  color: white;
+}
 
 
 

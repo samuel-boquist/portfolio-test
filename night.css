@@ -30,7 +30,7 @@ body {
 .grid-container-design {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8vw 42vw 42vw 42vw 42vw 32vw 8vw;
+    grid-template-rows: 20vh 80vh 80vh 80vh 80vh 60vh 20vh;
     grid-gap: 0;
   }
 
@@ -38,6 +38,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     padding: 10px;
     color: white;
     }
@@ -47,6 +48,7 @@ body {
     justify-content: space-evenly;
     border-style: solid;
     border-left: none;
+    position: sticky;
     border-right: none;
     padding: 10px;
     color: white;
@@ -56,10 +58,35 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     padding: auto;
     color: white;
   }
 
+  .knapp-p{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%)
+
+    }
+
+    a:link, a:visited {
+      border: 0.1em solid #FFFFFF;
+      color: white;
+      padding: 30px 55px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1em;
+    }
+    
+    a:hover, a:active {
+      background-color: #F8FFAD ;
+      color: black;
+      border: none;
+    }
 
 
 /* ---------lines----------------lines------------------lines-------- */
@@ -154,7 +181,7 @@ body {
 /* -----images design-----------images design---------images design-- */
    
     .bild1{
-      background-image: url("bilder/photo/portrait/DSC08481.jpg"); 
+      background-image: url("bilder/photo/night/DSC08292.jpg"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -169,13 +196,13 @@ body {
 
     .bild1:hover{
         transition: 0.5s;
-        background-image: url("bilder/photo/portrait/DSC08481-2.jpg"); 
+        background-image: url("bilder/photo/night/DSC08292-2.jpg"); 
     }
 
 
 
     .bild2{
-      background-image: url("bilder/photo/portrait/DSC08469.jpg"); 
+      background-image: url("bilder/photo/night/DSC01561-2\ 2.png"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -190,12 +217,12 @@ body {
 
     .bild2:hover{
         transition: 0.5s;
-        background-image: url("bilder/photo/portrait/DSC08469-2.jpg"); 
+        background-image: url("bilder/photo/night/DSC01561-2\ 1.png"); 
     }
 
 
     .bild3{
-      background-image: url("bilder/photo/portrait/DSC08636-2.jpg"); 
+      background-image: url("bilder/photo/night/DSC08292.jpg"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -210,11 +237,11 @@ body {
 
     .bild3:hover{
         transition: 0.5s;
-        background-image: url("bilder/photo/portrait/DSC08636-3.jpg"); 
+        background-image: url("bilder/photo/night/DSC08292-2.jpg"); 
     }
 
     .bild4{
-      background-image: url("bilder/photo/portrait/DSC02198-2.jpg"); 
+      background-image: url("bilder/photo/night/DSC08323-2.jpg"); 
       background-color: #cccccc; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -229,11 +256,11 @@ body {
 
     .bild4:hover{
         transition: 0.5s;
-        background-image: url("bilder/photo/portrait/DSC02198.jpg"); 
+        background-image: url("bilder/photo/night/DSC08323.jpg"); 
     }
 
     .bild5{
-        background-image: url("bilder/photo/portrait/DSC03365\ -\ Shortcut.lnk"); 
+        background-image: url("bilder/photo/night/DSC02308-2.jpg"); 
         background-color: #cccccc; 
         background-position: center; 
         background-repeat: no-repeat; 
@@ -248,14 +275,14 @@ body {
   
       .bild5:hover{
           transition: 0.5s;
-          background-image: url("bilder/photo/portrait/DSC03365.jpg"); 
+          background-image: url("bilder/photo/night/DSC02308.jpg"); 
       }
 
       .bild6{
-        background-image: url("bilder/photo/portrait/DSC01828-2\ 1.png"); 
+        background-image: url("bilder/photo/night/DSC08292.jpg"); 
         background-color: #cccccc; 
         background-position: center; 
-        background-repeat: no-repeat; 
+        background-repeat: no-repeat;
         background-size: cover;
         
         grid-column: 3 / -1;
@@ -267,11 +294,11 @@ body {
   
       .bild6:hover{
           transition: 0.5s;
-          background-image: url("bilder/photo/portrait/DSC01828-2\ 2.png"); 
+          background-image: url("bilder/photo/night/DSC08292-2.jpg"); 
       }
 
       .bild7{
-        background-image: url("bilder/photo/portrait/DSC01598\ 2.png"); 
+        background-image: url("bilder/photo/night/DSC01337\ 2.png"); 
         background-color: #cccccc; 
         background-position: center; 
         background-repeat: no-repeat; 
@@ -286,7 +313,7 @@ body {
   
       .bild7:hover{
           transition: 0.5s;
-          background-image: url("bilder/photo/portrait/DSC01598\ 1.png"); 
+          background-image: url("bilder/photo/night/DSC01337\ 1.png"); 
       }
       
 /* -----------------footer----------------footer--------------footer------- */

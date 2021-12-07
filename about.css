@@ -22,7 +22,7 @@ body {
     padding: 0;
     margin: 0;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 8vw 48vw 48vw;
+    grid-template-rows: 20vh 80vh 80vh;
     z-index: 99;         
   }
 
@@ -31,7 +31,7 @@ body {
 .grid-container-design {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8vw 42vw 42vw 32vw 8vw;
+    grid-template-rows: 20vh 80vh 80vh 60vh 20vh;
     grid-gap: 0;
   }
 
@@ -39,14 +39,16 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
-    padding: 10px;
+    padding: auto;
+    position: sticky;
     color: white;
     }
-
+  
   .grid-container-design > div:nth-child(2) {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     border-left: none;
     border-right: none;
     padding: 10px;
@@ -57,6 +59,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     padding: auto;
     color: white;
   }
@@ -170,6 +173,14 @@ body {
       margin: 0;
     }
 
+    .rubrik{  
+      font-family: Playfair Display SC;
+      position: relative;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 4rem;
+
+    }
 /* -----images design-----------images design---------images design-- */
    
 
@@ -209,11 +220,10 @@ body {
         text-align: center;
         position: absolute;
         position: absolute;
-        top: 40%;
-        left: 50%; 
-        transform: translate(-50%, -50%)
+        top: 10%;
+        left: 10%; 
+        right: 10%
       }
-
 
 
 

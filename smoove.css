@@ -31,7 +31,7 @@ body {
 .grid-container-design {
     display: grid;
     grid-template-columns: 1fr 7fr 1fr;
-    grid-template-rows: 8vw 42vw 42vw 32vw 8vw;
+    grid-template-rows: 20vh 80vh 80vh 60vh 20vh;
     grid-gap: 0;
   }
 
@@ -39,14 +39,16 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
-    padding: 10px;
+    padding: auto;
+    position: sticky;
     color: white;
     }
-
+  
   .grid-container-design > div:nth-child(2) {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     border-left: none;
     border-right: none;
     padding: 10px;
@@ -57,9 +59,36 @@ body {
     display: flex;
     justify-content: space-evenly;
     border-style: solid;
+    position: sticky;
     padding: auto;
     color: white;
   }
+  
+  .knapp-p{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%)
+  
+    }
+  
+  
+    a:link, a:visited {
+      border: 0.1em solid #FFFFFF;
+      color: white;
+      padding: 30px 55px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1em;
+    }
+    
+    a:hover, a:active {
+      background-color: #F8FFAD ;
+      color: black;
+      border: none;
+    }
 
 
 
@@ -125,36 +154,7 @@ body {
 /* ------------knapp--------knapp-------------------- */
 
 
-      a:link, a:visited {
-        border: 0.2em solid #FFFFFF;
-        color: white;
-        padding: 30px 55px;
-        text-align: center;
-        text-decoration: none;
-        margin: auto;
-        display: inline-block;
-        font-size: 1em;
-      }
-      
-      a:hover, a:active {
-        border: 0.2em solid #F8FFAD;
-        background-color: #F8FFAD ;
-        color: black;
-        border: none;
-      }
-
-      .cv-knap-position {
-        grid-column: 1 ;
-        grid-row: 5;
-        text-align: center;
-      }
-
-      .dcv-knap-position {
-        grid-column: 6 ;
-        grid-row: 5;
-        text-align: center;
-      }
-
+     
 
 /* -------------ALL text------------ALL text------------ALL text-------- */
 
@@ -166,21 +166,26 @@ body {
 /* -----images design-----------images design---------images design-- */
    
 
-    .bild-på-mig{
-      background-image: url("bilder/Bild2.png"); 
-      background-color: #cccccc; 
-      background-position: center; 
-      background-repeat: no-repeat; 
-      background-size: cover;
-      
-      grid-column: 1 / -1;
-      grid-row: 1 / span 5;
-      position: sticky;
-      border: 0.2em solid #FFFFFF;
-      box-sizing: border-box;  
-    }
+.bild1{
+  background-image: url("bilder//prodjekts/smoove/Bild21.png"); 
+  background-color: #cccccc; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 
-    .bild-Textfält{
+  grid-column: 1 /  -1;
+  grid-row: 1 / span 5;
+  position: sticky;
+  border: 0.2em solid #FFFFFF;
+  box-sizing: border-box;       
+}
+
+.bild1:hover{
+  background-image: url("bilder//prodjekts/smoove/Bild2.png"); 
+  transition: 0.5s;
+}
+
+  .bild-Textfält{
  
         background-color: #0A3934; 
         background-position: center; 
@@ -188,7 +193,7 @@ body {
         background-size: cover;
         
         grid-column: 1 / -1;
-        grid-row: 1 / span 4;
+        grid-row: 1 / -1;
         position: sticky;
         border: 0.2em solid #FFFFFF;
         box-sizing: border-box;  
@@ -206,7 +211,25 @@ body {
       }
 
 
-
+      .bild2{
+        background-image: url("bilder//prodjekts/smoove/klippt\ logo\ 2.png"); 
+        background-color: #cccccc; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+      
+        grid-column: 1 /  -1;
+        grid-row: 1 / span 5;
+        position: sticky;
+        border: 0.2em solid #FFFFFF;
+        box-sizing: border-box;       
+      }
+      
+      .bild2:hover{
+        background-image: url("bilder//prodjekts/smoove/Bild2.png"); 
+        transition: 0.5s;
+      }
+      
 
 
 
@@ -279,6 +302,8 @@ body {
       .footer-main{
         margin: auto;
       }
+
+      
 
 
      
